@@ -1,0 +1,41 @@
+#main-heading{
+    text-align: center;
+    font-family: Arial;
+}
+.taskInput{
+    display: grid;
+    grid-template-columns: 350px 200px 100px;
+    row-gap: 15px;
+    column-gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;   
+}
+#taskName,#dueDate{
+    font-size: 1.5rem;
+    padding: 15px 8px;
+    border-radius: 0.5rem;
+}
+.btn-del{
+    background-color: brown;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 15px 0px;
+}
+.btn-add{
+    background-color: rgb(39, 145, 44);
+    color: white;
+    border-radius: 0.5rem;
+    padding: 20px 0px;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tasks > span{
+    padding: 20px;
+    font-size: 1.5rem;
+}
